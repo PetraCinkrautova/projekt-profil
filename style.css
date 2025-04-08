@@ -4,8 +4,126 @@
   pozadi karticky     #31363b
   barva textu         #bdc3c7
   oddelovace          #3f464d
-  czechitas logo      #b92e81
+  czechitas logo     
   tlacitko portfolio  #e74c3c
   tlacitko facebook   #3b5998
   tlacitko twitter    #1da1f2
 */
+
+
+body {font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #bdc3c7;
+}
+
+p {color:  #bdc3c7;
+
+}
+  
+
+
+
+h1 {font-family: "Montserrat", sans-serif;
+font-size: 24px;
+margin: 20px 20px;
+color: white;
+
+}
+
+p { font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 14px;
+  margin: 10px 20px;
+
+}
+
+.profil {background-color:  #31363b;
+  width: 250px;
+  margin: 30px auto;
+  box-shadow: grey 4px 6px 8px;
+  border-radius: 5px;
+  
+
+}
+
+.foto {width: 100%;
+  border-radius: 5px 5px 0 0;
+  
+
+}
+
+.text {position: relative;
+
+}
+
+.logo {border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -50px;
+  background-color: #b92e81;
+
+
+}
+
+a {color: #bdc3c7;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px ;
+  font-weight: bold;
+ 
+  
+}
+
+.portfolio {border-bottom: 1px solid #3f464d;
+  border-top: 0.5px solid #3f464d; 
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 30px;
+  text-align: center;
+
+}
+
+.tlacitka {margin: 0;
+  padding: 0;
+
+}
+
+.facebook {padding: 10px 0;
+  width: 48%;
+
+  text-align: center;
+
+}
+
+.twitter {padding: 10px 0;
+  margin-right: 0;
+  padding-left: 0;
+  text-align: center;
+  width: 49%;
+  border-left:  0.5px solid  #3f464d;
+
+}
+
+.facebook:hover {background-color:  #3b5998;
+  color: white;
+
+}
+
+.portfolio:hover {background-color: #e74c3c;
+  color: white;
+
+}
+
+.twitter:hover {background-color: #1da1f2;
+  color: white;
+
+}
+
+
